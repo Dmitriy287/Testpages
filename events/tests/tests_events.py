@@ -88,8 +88,8 @@ def event_on_focus(page: Page):
         page.wait_for_timeout(1000)
         page.click(locator_on_focus)
         page.wait_for_timeout(2000)
-        first_cell_text = page.query_selector("#onfocus").inner_text()
-        assert first_cell_text == 'OnFocus'
+        text = page.query_selector("#onfocus").inner_text()
+        assert text == 'OnFocus'
         page.screenshot(path="screenshots/event_on_focus.png")
     return event_on_focus_func
 
@@ -102,8 +102,8 @@ def event_on_key_down(page: Page):
         page.click(locator_on_key_down)
         page.keyboard.press('Enter')
         page.keyboard.press('Shift')
-        first_cell_text = page.query_selector("#onkeydown").inner_text()
-        assert first_cell_text == 'OnKeyDown'
+        text = page.query_selector("#onkeydown").inner_text()
+        assert text == 'OnKeyDown'
         page.wait_for_timeout(1000)
         page.screenshot(path="screenshots/event_on_key_down.png")
     return event_on_key_down_func
@@ -167,9 +167,9 @@ def event_on_mouse_leave(page: Page):
 def event_on_mouse_down(page: Page):
     def event_on_mouse_down_func():
         page.goto(data_page_events)
-        first_cell_text = page.query_selector("#onmousedown").inner_text()
-        assert first_cell_text == 'OnMouseDown'
-        print(first_cell_text)
+        text = page.query_selector("#onmousedown").inner_text()
+        assert text == 'OnMouseDown'
+        print(text)
         page.wait_for_timeout(1000)
         page.click(locator_on_mouse_down)
         page.wait_for_timeout(2000)
