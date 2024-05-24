@@ -26,11 +26,11 @@ def test_pages_web(page: Page):
         page.wait_for_timeout(1000)
         paragraph_text = page.locator(locator_paragraph).inner_text()
         print(paragraph_text)
+        assert paragraph_text == 'A paragraph of text'
         page.wait_for_timeout(2000)
         paragraph2_text = page.locator(locator_paragraph2).inner_text()
         print(paragraph2_text)
         page.wait_for_timeout(2000)
-        page.click(locator_index)
         page.screenshot(path='screenshots/pages_web.jpeg')
     return test_pages_web_func
 
@@ -68,13 +68,14 @@ def test_pages_locators(page: Page):
         page.wait_for_timeout(2000)
         page.click(locator_8_jump_to_para)
         page.wait_for_timeout(2000)
-        page.mouse.wheel(0, 1000)
         d_paragraph_text1 = page.locator(locator_d_paragraph_text1).inner_text()
         print(d_paragraph_text1)
+        assert d_paragraph_text1 == 'This is d paragraph text'
         page.wait_for_timeout(2000)
         page.click(locator_nested)
         page.click(locator_10_jump_to_para)
         page.click(locator_17_jump_to_para)
+        assert page.inner_text('h1') == 'Find By Playground - Locator Examples'
         page.wait_for_timeout(1000)
         page.screenshot(path='screenshots/locators.jpeg')
     return test_pages_locators_func
@@ -98,6 +99,7 @@ def test_pages_webdriver(page: Page):
         page.wait_for_timeout(2000)
         page.click(locator_show_from_link)
         page.wait_for_timeout(1000)
+        assert 'https://testpages.eviltester.com/styled/webdriver-example-page' in page.url.lower()
         page.screenshot(path='screenshots/webdriver.jpeg')
     return test_pages_webdriver_func
 

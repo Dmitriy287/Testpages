@@ -35,6 +35,7 @@ def page(browser_context: BrowserContext):
 def event_on_blur(page: Page):
     def event_on_blur_func():
         page.goto(data_page_events)
+        assert page.title() == 'JavaScript Events'
         page.wait_for_timeout(1000)
         page.click(locator_on_blur)
         page.mouse.move(10, 0)
@@ -50,6 +51,7 @@ def event_on_click(page: Page):
         page.goto(data_page_events)
         page.wait_for_timeout(1000)
         page.click(locator_on_click)
+        assert page.inner_text('h1') == 'JavaScript Events'
         page.wait_for_timeout(1000)
         page.screenshot(path="screenshots/event_on_click.png")
     return event_on_click_func
@@ -60,6 +62,8 @@ def event_on_context_menu(page: Page):
         page.goto(data_page_events)
         page.wait_for_timeout(1000)
         page.click(locator_on_context_menu, button="right")
+        on_context_menu = page.locator(locator_on_context_menu_triggered).inner_text()
+        assert on_context_menu == 'Event Triggered'
         page.wait_for_timeout(1000)
         page.screenshot(path="screenshots/event_on_context_menu.png")
     return event_on_context_menu_func
@@ -68,6 +72,8 @@ def event_on_context_menu(page: Page):
 def event_on_double_click(page: Page):
     def event_on_double_click_func():
         page.goto(data_page_events)
+        on_each = page.locator(locator).inner_text()
+        assert on_each == 'Each of the buttons has a different triggering event, try to trigger them all.'
         page.wait_for_timeout(1000)
         page.dblclick(locator_on_double_click)
         page.wait_for_timeout(1000)
@@ -82,6 +88,8 @@ def event_on_focus(page: Page):
         page.wait_for_timeout(1000)
         page.click(locator_on_focus)
         page.wait_for_timeout(2000)
+        first_cell_text = page.query_selector("#onfocus").inner_text()
+        assert first_cell_text == 'OnFocus'
         page.screenshot(path="screenshots/event_on_focus.png")
     return event_on_focus_func
 
@@ -94,7 +102,9 @@ def event_on_key_down(page: Page):
         page.click(locator_on_key_down)
         page.keyboard.press('Enter')
         page.keyboard.press('Shift')
-        page.wait_for_timeout(2000)
+        first_cell_text = page.query_selector("#onkeydown").inner_text()
+        assert first_cell_text == 'OnKeyDown'
+        page.wait_for_timeout(1000)
         page.screenshot(path="screenshots/event_on_key_down.png")
     return event_on_key_down_func
 
@@ -103,6 +113,7 @@ def event_on_key_down(page: Page):
 def event_on_key_up(page: Page):
     def event_on_key_up_func():
         page.goto(data_page_events)
+        assert page.inner_text('h1') == 'JavaScript Events'
         page.wait_for_timeout(1000)
         page.click(locator_on_key_up)
         page.keyboard.press('Enter')
@@ -115,6 +126,8 @@ def event_on_key_up(page: Page):
 def event_on_key_press(page: Page):
     def event_on_key_press_func():
         page.goto(data_page_events)
+        on_each = page.locator(locator).inner_text()
+        assert on_each == 'Each of the buttons has a different triggering event, try to trigger them all.'
         page.wait_for_timeout(1000)
         page.click(locator_on_key_press)
         page.keyboard.press('Enter')
@@ -130,6 +143,8 @@ def event_on_mouse_over(page: Page):
         page.wait_for_timeout(1000)
         element = page.query_selector(locator_on_mouse_over)
         element.hover()
+        on_mouse_over = page.locator(locator_on_mouse_over_trig).inner_text()
+        assert on_mouse_over == 'Event Triggered'
         page.wait_for_timeout(2000)
         page.screenshot(path="screenshots/event_on_mouse_over.png")
     return event_on_mouse_over_func
@@ -139,6 +154,7 @@ def event_on_mouse_over(page: Page):
 def event_on_mouse_leave(page: Page):
     def event_on_mouse_leave_func():
         page.goto(data_page_events)
+        assert page.inner_text('h1') == 'JavaScript Events'
         page.wait_for_timeout(1000)
         page.click(locator_on_mouse_leave)
         page.mouse.move(10, 0)
@@ -151,6 +167,9 @@ def event_on_mouse_leave(page: Page):
 def event_on_mouse_down(page: Page):
     def event_on_mouse_down_func():
         page.goto(data_page_events)
+        first_cell_text = page.query_selector("#onmousedown").inner_text()
+        assert first_cell_text == 'OnMouseDown'
+        print(first_cell_text)
         page.wait_for_timeout(1000)
         page.click(locator_on_mouse_down)
         page.wait_for_timeout(2000)
