@@ -1,4 +1,4 @@
-from demoqa.tests.test_alerts import *
+from alerts.tests.test_alerts import *
 
 
 

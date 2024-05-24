@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright, Page, BrowserContext
 import pytest
-from demoqa.locators.locator_alert import *
-from demoqa.data.data_alerts import *
+from alerts.locators.locator_alert import *
+from alerts.data.data_alerts import *
 from playwright.sync_api import expect
 
 @pytest.fixture

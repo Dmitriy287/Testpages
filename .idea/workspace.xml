@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808be14c-ebaf-4948-ad22-45bb8260e7d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/events/tests/tests_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/events/tests/tests_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/data/data_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/data/data_alerts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/locators/locator_alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/locators/locator_alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/run_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_alert_box.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_alert_box.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_alert_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_alert_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_accept_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_box.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_box.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_dismiss_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_dismiss_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_prompt_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_prompt_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa/tests/test_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/tests/test_alerts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,22 +92,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for run_events.test_event_on_mouse_down">
-    <configuration name="Python tests for run_events.test_event_on_focus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events/run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_events.test_event_on_focus&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in run_test_pages.py">
     <configuration name="Python tests for run_events.test_event_on_key_down" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -128,19 +123,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_test_pages.testpages_table_dynamic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in run_all.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testpages/run/run_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alerts/run/run_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_test_pages.testpages_table_dynamic&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/alerts/run/run_test/run_all.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in run_events.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -158,13 +153,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in run_test_pages.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testpages/run/run_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testpages/run/run_tests/run_test_pages.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in run_test_pages.py" />
+        <item itemvalue="Python tests.Python tests in run_all.py" />
+        <item itemvalue="Python tests.Python tests in run_events.py" />
         <item itemvalue="Python tests.Python tests for run_events.test_event_on_mouse_down" />
         <item itemvalue="Python tests.Python tests for run_events.test_event_on_key_down" />
-        <item itemvalue="Python tests.Python tests in run_events.py" />
-        <item itemvalue="Python tests.Python tests for run_test_pages.testpages_table_dynamic" />
-        <item itemvalue="Python tests.Python tests for run_events.test_event_on_focus" />
       </list>
     </recent_temporary>
   </component>
