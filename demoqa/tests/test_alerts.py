@@ -28,22 +28,59 @@ def page(browser_context: BrowserContext):
     yield page
     page.close()
 
+
 @pytest.fixture
 def show_alert_box(page: Page):
     def show_alert_box_func():
         page.goto(data_page_alerts)
         page.wait_for_timeout(1000)
+        def alert_dialog(dialog):
+            print(dialog.message)
+            dialog.accept()
+        page.on('dialog', alert_dialog)
         page.click(locator_alert_box)
-        page.wait_for_timeout(1000)
-        page.screenshot(path='screenshots/show_alert_box.jpeg')
+        page.wait_for_timeout(2000)
+        page.screenshot(path="screenshots/show_alert_box.png")
     return show_alert_box_func
 
 @pytest.fixture
-def show_confirm_box(page: Page):
-    def show_confirm_box_func():
+def show_confirm_box_accept(page: Page):
+    def show_confirm_box_accept_func():
         page.goto(data_page_alerts)
         page.wait_for_timeout(1000)
+        def alert_dialog(dialog):
+            print(dialog.message)
+            dialog.accept()
+        page.on('dialog', alert_dialog)
         page.click(locator_confirm_box)
+        page.wait_for_timeout(2000)
+        page.screenshot(path="screenshots/show_confirm_accept_box.png")
+    return show_confirm_box_accept_func
+
+@pytest.fixture
+def show_confirm_box_dismiss(page: Page):
+    def show_confirm_box_dismiss_func():
+        page.goto(data_page_alerts)
         page.wait_for_timeout(1000)
-        page.screenshot(path='screenshots/show_confirm_box.jpeg')
-    return show_confirm_box_func
+        def alert_dialog(dialog):
+            print(dialog.message)
+            dialog.dismiss()
+        page.on('dialog', alert_dialog)
+        page.click(locator_confirm_box)
+        page.wait_for_timeout(2000)
+        page.screenshot(path="screenshots/show_confirm_dismiss_box.png")
+    return show_confirm_box_dismiss_func
+
+@pytest.fixture
+def show_prompt_box(page: Page):
+    def show_prompt_box_func():
+        page.goto(data_page_alerts)
+        page.wait_for_timeout(1000)
+        def alert_dialog_prompt(dialog):
+            print(dialog.message)
+            dialog.accept(data_alert_prompt)
+        page.on('dialog', alert_dialog_prompt)
+        page.click(locator_prompt_box)
+        page.wait_for_timeout(2000)
+        page.screenshot(path="screenshots/show_prompt_box.png", full_page=True)
+    return show_prompt_box_func
