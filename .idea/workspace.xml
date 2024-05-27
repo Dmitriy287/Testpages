@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808be14c-ebaf-4948-ad22-45bb8260e7d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/form_example/data/data_form_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_example/data/filename.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_example/locators/locators_for_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_example/run/run_for_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/data/data_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/data/data_alerts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/locators/locator_alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/locators/locator_alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_alert_box.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_alert_box.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_alert_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_alert_box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_accept_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_box.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_box.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_confirm_dismiss_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_dismiss_box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/run/run_test/screenshots/show_prompt_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_prompt_box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa/tests/test_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/tests/test_alerts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,138 +39,146 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for 2.test_bank_xyz_login.executor": "Run",
-    "Python tests.Python tests for 2.test_example_webkit.executor": "Run",
-    "Python tests.Python tests for run_all.test_confirm_alert_box_accept.executor": "Run",
-    "Python tests.Python tests for run_all.test_prompt_alert_box.executor": "Run",
-    "Python tests.Python tests for run_all.test_show_alert_box.executor": "Run",
-    "Python tests.Python tests for run_all.test_show_confirm_box.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_blur.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_click.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_context_menu.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_double_click.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_focus.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_key_down.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_key_press.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_key_up.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_mouse_down.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_mouse_leave.executor": "Run",
-    "Python tests.Python tests for run_events.test_event_on_mouse_over.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_Basic_Web_Page_Example.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_basic.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_basic_web.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_basic_web_page_example.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_basic_web_page_example_func.executor": "Run",
-    "Python tests.Python tests for run_test_pages.test_pages_one.executor": "Debug",
-    "Python tests.Python tests for run_test_pages.testbasic_web_page.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_attribute.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_locators.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_one.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_table.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_table_dynamic.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_web.executor": "Run",
-    "Python tests.Python tests for run_test_pages.testpages_webdriver.executor": "Run",
-    "Python tests.Python tests for run_testpages.test_pages_one.executor": "Run",
-    "Python tests.Python tests for run_testpages.testpages_one.executor": "Run",
-    "Python tests.Python tests for test_pages.test_pages_one.executor": "Run",
-    "Python tests.Python tests for test_pages.test_pages_one.test_pages_one_func.executor": "Run",
-    "Python tests.Python tests for test_pages.test_pages_web.executor": "Run",
-    "Python tests.Python tests in run_all.py.executor": "Run",
-    "Python tests.Python tests in run_events.py.executor": "Run",
-    "Python tests.Python tests in run_test_pages.py.executor": "Run",
-    "Python tests.Python tests in run_tests.executor": "Run",
-    "Python tests.Python tests in testpages.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for 2.test_bank_xyz_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for 2.test_example_webkit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_all.test_confirm_alert_box_accept.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_all.test_prompt_alert_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_all.test_show_alert_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_all.test_show_confirm_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_blur.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_click.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_context_menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_double_click.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_focus.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_key_down.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_key_press.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_key_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_mouse_down.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_mouse_leave.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_events.test_event_on_mouse_over.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_checkbox_items.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_multiple_select_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_radio_items.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_set_filename.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_textarea.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_for_example.test_usr_pass_fill.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_Basic_Web_Page_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_basic_web.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_basic_web_page_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_basic_web_page_example_func.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.test_pages_one.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testbasic_web_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_attribute.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_table_dynamic.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_web.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_test_pages.testpages_webdriver.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_testpages.test_pages_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_testpages.testpages_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pages.test_pages_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pages.test_pages_one.test_pages_one_func.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pages.test_pages_web.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_all.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_events.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_for_example.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_test_pages.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in testpages.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in run_test_pages.py">
-    <configuration name="Python tests for run_events.test_event_on_key_down" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests in run_for_example.py">
+    <configuration name="Python tests for run_for_example.test_checkbox_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_events.test_event_on_key_down&quot;" />
+      <option name="_new_target" value="&quot;run_for_example.test_checkbox_items&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_events.test_event_on_mouse_down" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_for_example.test_dropdown" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_events.test_event_on_mouse_down&quot;" />
+      <option name="_new_target" value="&quot;run_for_example.test_dropdown&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in run_all.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_for_example.test_multiple_select_values" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alerts/run/run_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/alerts/run/run_test/run_all.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;run_for_example.test_multiple_select_values&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in run_events.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_for_example.test_radio_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/events/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/events/run/run_events.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;run_for_example.test_radio_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in run_test_pages.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in run_for_example.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testpages/run/run_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testpages/run/run_tests/run_test_pages.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/form_example/run/run_for_example.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in run_test_pages.py" />
-        <item itemvalue="Python tests.Python tests in run_all.py" />
-        <item itemvalue="Python tests.Python tests in run_events.py" />
-        <item itemvalue="Python tests.Python tests for run_events.test_event_on_mouse_down" />
-        <item itemvalue="Python tests.Python tests for run_events.test_event_on_key_down" />
+        <item itemvalue="Python tests.Python tests in run_for_example.py" />
+        <item itemvalue="Python tests.Python tests for run_for_example.test_dropdown" />
+        <item itemvalue="Python tests.Python tests for run_for_example.test_multiple_select_values" />
+        <item itemvalue="Python tests.Python tests for run_for_example.test_radio_items" />
+        <item itemvalue="Python tests.Python tests for run_for_example.test_checkbox_items" />
       </list>
     </recent_temporary>
   </component>
