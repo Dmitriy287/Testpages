@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808be14c-ebaf-4948-ad22-45bb8260e7d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/form_example/data/data_form_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_example/data/filename.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_example/locators/locators_for_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_example/run/run_for_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_cookies/data/data_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_cookies/locators/locators_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_cookies/run/run_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_cookies/tests/tests_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5_page/data/data_html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5_page/locators/locators_html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5_page/run/run_html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5_page/tests/tests_html5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/run/run_test/screenshots/show_confirm_accept_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,10 @@
     &quot;Python tests.Python tests for run_all.test_prompt_alert_box.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_all.test_show_alert_box.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_all.test_show_confirm_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_cookies.test_add_cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_cookies.test_admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_cookies.test_admin2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_cookies.test_admin3.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_events.test_event_on_blur.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_events.test_event_on_click.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_events.test_event_on_context_menu.executor&quot;: &quot;Run&quot;,
@@ -65,6 +72,14 @@
     &quot;Python tests.Python tests for run_for_example.test_set_filename.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_for_example.test_textarea.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_for_example.test_usr_pass_fill.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_colour.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_date.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_date_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_date_time.test_month.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_month.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for run_html5.test_number.test_date.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_test_pages.test_Basic_Web_Page_Example.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_test_pages.test_basic.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for run_test_pages.test_basic_web.executor&quot;: &quot;Run&quot;,
@@ -85,100 +100,103 @@
     &quot;Python tests.Python tests for test_pages.test_pages_one.test_pages_one_func.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_pages.test_pages_web.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in run_all.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_cookies.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in run_events.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in run_for_example.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in run_html5.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in run_test_pages.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in run_tests.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in testpages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests_html5.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests in run_for_example.py">
-    <configuration name="Python tests for run_for_example.test_checkbox_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in run_cookies.py">
+    <configuration name="Python tests for run_cookies.test_add_cookies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_for_example.test_checkbox_items&quot;" />
+      <option name="_new_target" value="&quot;run_cookies.test_add_cookies&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_for_example.test_dropdown" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_cookies.test_admin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_for_example.test_dropdown&quot;" />
+      <option name="_new_target" value="&quot;run_cookies.test_admin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_for_example.test_multiple_select_values" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_cookies.test_admin2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_for_example.test_multiple_select_values&quot;" />
+      <option name="_new_target" value="&quot;run_cookies.test_admin2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_for_example.test_radio_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for run_cookies.test_admin3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_for_example.test_radio_items&quot;" />
+      <option name="_new_target" value="&quot;run_cookies.test_admin3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in run_for_example.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in run_cookies.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/form_example/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/form_example/run/run_for_example.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/admin_cookies/run/run_cookies.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in run_for_example.py" />
-        <item itemvalue="Python tests.Python tests for run_for_example.test_dropdown" />
-        <item itemvalue="Python tests.Python tests for run_for_example.test_multiple_select_values" />
-        <item itemvalue="Python tests.Python tests for run_for_example.test_radio_items" />
-        <item itemvalue="Python tests.Python tests for run_for_example.test_checkbox_items" />
+        <item itemvalue="Python tests.Python tests in run_cookies.py" />
+        <item itemvalue="Python tests.Python tests for run_cookies.test_admin3" />
+        <item itemvalue="Python tests.Python tests for run_cookies.test_add_cookies" />
+        <item itemvalue="Python tests.Python tests for run_cookies.test_admin2" />
+        <item itemvalue="Python tests.Python tests for run_cookies.test_admin" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +235,16 @@
           <url>file://$PROJECT_DIR$/events/run/run_events.py</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/html5_page/run/run_html5.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/html5_page/run/run_html5.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

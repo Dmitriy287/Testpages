@@ -1,0 +1,7 @@
+data_html5 = "https://testpages.eviltester.com/styled/html5-form-test.html"
+data_email = "ds.89@mail.ru"
+data_date = "2024-05-31"
+data_date_time = "2024-05-30T13:19"
+data_month = "2024-08"
+data_colour2 = "#008000"
+data_number = "41"

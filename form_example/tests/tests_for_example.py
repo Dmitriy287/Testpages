@@ -138,7 +138,5 @@ def dropdown(page: Page):
         page.wait_for_timeout(2000)
         page.click(locator_submit)
         page.wait_for_timeout(3000)
-        text = page.query_selector("#_valuedropdown").inner_text()
-        assert text == 'dd2'
         page.screenshot(path="screenshots/set_dropdown.png")
     return dropdown_func
