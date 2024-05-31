@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808be14c-ebaf-4948-ad22-45bb8260e7d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin_cookies/data/data_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_cookies/locators/locators_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_cookies/run/run_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_cookies/tests/tests_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5_page/data/data_html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5_page/locators/locators_html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5_page/run/run_html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5_page/tests/tests_html5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/form_example/tests/tests_for_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_cookies/run/screenshots/admin_cookies2.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin_cookies/run/screenshots/admin_cookies2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_cookies/tests/tests_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_cookies/tests/tests_cookies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,21 +123,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for run_cookies.test_admin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_cookies/run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;run_cookies.test_admin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for run_cookies.test_admin2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -190,13 +168,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in run_html5.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html5_page/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/html5_page/run/run_html5.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in run_cookies.py" />
         <item itemvalue="Python tests.Python tests for run_cookies.test_admin3" />
+        <item itemvalue="Python tests.Python tests in run_html5.py" />
         <item itemvalue="Python tests.Python tests for run_cookies.test_add_cookies" />
         <item itemvalue="Python tests.Python tests for run_cookies.test_admin2" />
-        <item itemvalue="Python tests.Python tests for run_cookies.test_admin" />
       </list>
     </recent_temporary>
   </component>

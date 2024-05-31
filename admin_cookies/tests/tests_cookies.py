@@ -75,18 +75,7 @@ def admin3(page: Page, browser_context):
         page.wait_for_timeout(2000)
         page.fill(locator_username, data_username)
         page.fill(locator_password, data_password)
-        browser_context.add_cookies([
-            {
-                'name': 'loggedin',
-                'value': 'Admin',
-                'domain': 'https://testpages.eviltester.com/styled/cookies/adminlogin.html',
-                'path': '/',
-                'httpOnly': False,
-                'secure': False,
-                'sameSite': 'Lax'
-            }
-
-        ])
+        browser_context.add_cookies([{'name': 'loggedin', 'value': 'Admin', 'url': page.url}])
         page.click(locator_login)
         page.wait_for_timeout(3000)
         page.wait_for_timeout(2000)
